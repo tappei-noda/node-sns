@@ -10,3 +10,6 @@
     "dev": "nodemon server.js"
   },
 ```
+curlコマンド豆知識  
+- バックスラッシュで囲まないとうまくpostできない
+`url -X POST -H "Content-Type: application/json" -d "{\"username\" : \"noda\" \"email\" : \"sato@example.com\"}"`
